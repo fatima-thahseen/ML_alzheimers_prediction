@@ -5,6 +5,6 @@ This project is a Machine Learning-based application for predicting Alzheimer's 
 Features
 * Model: XGBoost(optimized using RandomizedSearchCV)
 * Deployment: Streamlit
-* Label Encoding: 17 categorical features
-* One-Hot Encoding: 4 categorical features
+* Label Encoding: 15 categorical features
+* One-Hot Encoding: 2 categorical features
 * Scaling: StandardScaler
