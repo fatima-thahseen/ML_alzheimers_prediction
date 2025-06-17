@@ -57,7 +57,7 @@ st.write("Fill out the form below to receive a prediction.")
 
 # User Input Form
 with st.form("alzheimers_form"):
-    age = st.number_input("Age", min_value=30, max_value=100, step=1, value=50)
+    age = st.number_input("Age", min_value=15, max_value=100, step=1, value=50)
     gender = st.selectbox("Gender", ["Male", "Female"])
     education = st.number_input("Education Level (Years)", min_value=0, max_value=25, step=1, value=12)
     bmi = st.number_input("BMI", min_value=10.0, max_value=50.0, step=0.1, value=22.5)
