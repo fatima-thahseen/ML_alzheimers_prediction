@@ -120,7 +120,7 @@ def predict_alzheimers():
 if submit_button:
     result = predict_alzheimers()
     if result:
-        st.success("🎯 **Prediction Result**")
+        st.success("**Prediction Result**")
         
         # Define color based on prediction result
         color = "grey" if result == "No" else "lightpink"
