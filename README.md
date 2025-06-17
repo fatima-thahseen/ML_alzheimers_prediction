@@ -6,7 +6,7 @@ This project is a machine learning application that predicts Alzheimer's diagnos
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Model**: XGBoost (optimized using `RandomizedSearchCV`)
 - **Deployment**: Streamlit web application
@@ -18,7 +18,7 @@ This project is a machine learning application that predicts Alzheimer's diagnos
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Install the required packages using:
 
